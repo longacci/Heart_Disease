@@ -1,14 +1,14 @@
 {
     "builds":[
         {
-            "src":"Build_app_Heart_Disease.py",
+            "src":"./Build_app_Heart_Disease.py",
             "use":"@vercel/python"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"Build_app_Heart_Disease.py"
+            "dest":"/"
         }
     ]
 }
